@@ -1,0 +1,186 @@
+/* General Body and Element Styling */
+body {
+  background-color: #F8F9FA;
+}
+
+img {
+  width: 100%;
+}
+
+i {
+  color: #87E5DA;
+}
+
+/* Button Styling */
+button {
+  background-color: #87E5DA;
+  border-color: white;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid;
+}
+
+button:hover {
+  background-color: #68DED0;
+  cursor: pointer;
+}
+
+/* Header and Navigation */
+#darkModeToggle {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  z-index: 1000;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #87E5DA;
+  color: white;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* Component Styling */
+.img {
+  height: 240px;
+  transition: transform 0.3s ease;
+}
+
+.img:hover {
+  transform: scale(1.08);
+}
+
+.opacity {
+  opacity: 0.5;
+  padding-left: 30px;
+}
+
+#background {
+  font-size: 100px;
+  color: black;
+  opacity: 0.5;
+  margin: 200px 280px;
+  transition: transform 0.2s;
+}
+
+#background:hover {
+  transform: scale(1.08);
+}
+
+.bumbulbee {
+  color: #87E5DA;
+  padding-left: 80px;
+  text-decoration: underline;
+  text-decoration-color: #F8F9FA;
+}
+
+.bumbulbee:hover,
+.bumbulbee:visited {
+  color: #68DED0;
+}
+
+.lorem {
+  font-size: 18px;
+  opacity: 0.5;
+  letter-spacing: 1.5px;
+}
+
+.class {
+  height: 550px;
+}
+
+.Pricing {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.align {
+  height: 230px;
+}
+
+.align:hover {
+  opacity: 0.5;
+}
+
+.lore {
+  letter-spacing: 1.5;
+  opacity: 0.3;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.lore:hover {
+  opacity: 0.9;
+}
+
+/* Scroll to Top Button */
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #68DED0;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode a,
+.dark-mode button {
+  color: #ffffff !important;
+}
+
+.dark-mode button {
+  background-color: #444 !important;
+  border-color: #666 !important;
+}
+
+.dark-mode .lorem,
+.dark-mode .opacity {
+  opacity: 0.8 !important;
+}
+
+.dark-mode .class,
+.dark-mode .img,
+.dark-mode .align,
+.dark-mode .Pricing {
+  background-color: #333 !important;
+}
+
+.dark-mode .fa {
+  color: #87E5DA !important;
+}
+
+/* Reveal on Scroll Animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
